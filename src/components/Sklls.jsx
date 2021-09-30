@@ -54,7 +54,7 @@ const SkillTitulo = styled.div`
 
     svg{
         width: 30%;
-        max-height: 50%;
+        max-height: 80%;
         fill: ${theme.textIcons};        
     }
 

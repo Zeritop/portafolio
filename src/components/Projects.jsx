@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Equilatero, EquilateroInvertido } from './PrincipalContent';
 import theme from '../theme';
 import ImagenProjects from '../elements/ImagenProjects';
 import { TituloCategoria } from './PrincipalContent';
@@ -23,14 +22,14 @@ const ContainerProjects = styled.div`
     flex-direction: column;
     align-items: center;
     color: ${theme.textIcons};
-    padding: 10px 0;
+    padding: 40px 0;
 `;
 
 const Projects = () => {
 
     return ( 
         <>
-            <Equilatero id="sectionProjects" />
+            <div id="sectionProjects"></div>
                 <ContainerProjects>
                     <TituloCategoria>
                         <h2>Projects</h2>
@@ -59,7 +58,6 @@ const Projects = () => {
                     </GrillaProjects>
                     <ButtonVer to="/projects" >Ver Mas Proyectos</ButtonVer>
                 </ContainerProjects>
-            <EquilateroInvertido />
         </>
      );
 }

@@ -103,20 +103,20 @@ const FotoPresentacion = styled.div`
     }
 `;
 
-const Equilatero = styled.div`
-    background: ${theme.thirdColor};
-    width: 100.2%;
-    height: 100px;
-    clip-path: polygon(0 0, 0 100%, 100% 100%);
-`;
+// const Equilatero = styled.div`
+//     background: ${theme.thirdColor};
+//     width: 100%;
+//     height: 100px;
+//     clip-path: polygon(0 0, 0 100%, 100% 100%);
+// `;
 
-const EquilateroInvertido = styled.div`
-    background: ${theme.thirdColor};
-    width: 100.2%;
-    height: 100px;
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-    margin-bottom: 5%;
-`;
+// const EquilateroInvertido = styled.div`
+//     background: ${theme.thirdColor};
+//     width: 100.1%;
+//     height: 100px;
+//     clip-path: polygon(100% 0, 0 0, 100% 100%);
+//     margin-bottom: 5%;
+// `;
 
 const ContainerExperience = styled.div`
     color: ${theme.textIcons};
@@ -131,7 +131,7 @@ const ContainerExperience = styled.div`
 
 const ContentExperience = styled.div`
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     width: 80%;
     display: flex;
 `;
@@ -154,6 +154,7 @@ const Experience = styled.div`
 `;
 
 const TituloCategoria = styled.div`
+    margin-top: 100px;
     border: 5px solid ${theme.primaryText};
     padding: 10px 100px;
     max-width: 50%;
@@ -192,7 +193,7 @@ const PrincipalContent = () => {
             
                    
                 
-            <Equilatero id="sectionExperience" >  </Equilatero>
+            <div id="sectionExperience"></div>
                 <ContainerExperience >
                     <TituloCategoria>
                         <h2>Experience</h2>
@@ -232,7 +233,7 @@ const PrincipalContent = () => {
                     </ContentExperience>
                 </ContainerExperience>
 
-            <EquilateroInvertido id="sectionSklls" />
+            <div id="sectionSklls"></div>
             <Skills />
             <Projects />
         </Body>
@@ -242,7 +243,7 @@ const PrincipalContent = () => {
 export { 
     PrincipalContent,
     TituloCategoria,
-    Equilatero,
-    EquilateroInvertido,
+    // Equilatero,
+    // EquilateroInvertido,
     Body
 };
