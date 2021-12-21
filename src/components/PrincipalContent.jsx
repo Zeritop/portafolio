@@ -103,21 +103,6 @@ const FotoPresentacion = styled.div`
     }
 `;
 
-// const Equilatero = styled.div`
-//     background: ${theme.thirdColor};
-//     width: 100%;
-//     height: 100px;
-//     clip-path: polygon(0 0, 0 100%, 100% 100%);
-// `;
-
-// const EquilateroInvertido = styled.div`
-//     background: ${theme.thirdColor};
-//     width: 100.1%;
-//     height: 100px;
-//     clip-path: polygon(100% 0, 0 0, 100% 100%);
-//     margin-bottom: 5%;
-// `;
-
 const ContainerExperience = styled.div`
     color: ${theme.textIcons};
     width: 100%;
@@ -243,7 +228,5 @@ const PrincipalContent = () => {
 export { 
     PrincipalContent,
     TituloCategoria,
-    // Equilatero,
-    // EquilateroInvertido,
     Body
 };

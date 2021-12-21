@@ -52,8 +52,8 @@ const Projects = () => {
                                         </ProjectCard>
                                     </ProjectsBox>)
                                 }
-                                return pr
-                            })
+                                return null 
+                            } )
                         }
                     </GrillaProjects>
                     <ButtonVer to="/projects" >Ver Mas Proyectos</ButtonVer>
